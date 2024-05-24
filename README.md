@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Step 1: Install pnpm (package manager)
+Open a terminal, and install pnpm.
+```shell
+npm install -g pnpm
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Step 2: Clone the repository
+Clone the repository to your local machine.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Step 3: Open a terminal in the root of the project
+Run 
+```shell
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Step 4: Create a Notion Database
+Create a Notion database with these following properties:
+1. Name
+2. Status (Type: Select)
 
-## Learn More
+## Step 5: Create a Notion Integration Token
+Head over to `https://developers.notion.com/` and click on `View my integrations` on the upper right of the web page.
 
-To learn more about Next.js, take a look at the following resources:
+## Step 6: Login to your Notion Account
+Use the same account that you created your Notion Database with.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Step 7: Create a new integration
+Fill in the details of the integration then click on "Create"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Step 8: Get the s
