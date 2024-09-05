@@ -27,4 +27,15 @@ Use the same account that you created your Notion Database with.
 ## Step 7: Create a new integration
 Fill in the details of the integration then click on "Create"
 
-## Step 8: Get the s
+## Step 8: Get the integration token
+look for the token for the integration and add it into the .env file
+
+## Step 9: Login to your social media Account for developers (linkedIn, Instagram , X)
+go to the developer portal of the social media app
+
+## Step 10: Create a new social media integration
+Fill in the details of the integration then click on "Create"
+
+## Step 11: Get the integration token
+look for the tokens, or client ID and secrets for the integration and add it into the .env file
+
