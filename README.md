@@ -39,3 +39,9 @@ Fill in the details of the integration then click on "Create"
 ## Step 11: Get the integration token
 look for the tokens, or client ID and secrets for the integration and add it into the .env file
 
+## Step 12: Launch and access the project
+Run 
+```shell
+npm run dev
+```
+go to localhost:3000 or any other port number specified in your console
